@@ -145,6 +145,20 @@ h2 {
 }
 /* End Nav Menu */
 
+button {
+  color: #152a3e;
+  background-color: #cac691;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.icon, a .icon {
+  font-size: 48px;
+  color: #e9b14c;
+  font-weight: 900;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -264,6 +278,10 @@ header {
   padding-bottom: 10px;
 }
 
+#nav a{
+  color: #e9b14c;
+  margin: 10px;
+}
 #fact {
   background-color: #152a3e;
   box-shadow: 10px 5px 5px black;
@@ -278,7 +296,6 @@ header {
 #tools, #tools h3, #tools ul {
   color: #152a3e;
 }
-
 
 /* ==========================================================================
    Helper classes
