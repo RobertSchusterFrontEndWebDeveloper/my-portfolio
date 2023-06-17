@@ -83,6 +83,73 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  text-align: center;
+}
+.container {
+  margin: 18px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+   /* Navigation Menu */
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+/* Hide links inside navigation menu */
+.topnav #myLinks {
+  display: none;
+}
+/* Style menu links */
+.topnav a {
+  color: blue;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+/* Style Hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: red;
+}
+/* Mouse-over color */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style active link */
+.active {
+  background-color: #04AA6D;
+  color: salmon;
+}
+/* End Nav Menu */
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+/* Image properties */
+.avatar {
+  height: 105px;
+  width: auto;
+}
+.projects img {
+  width: 275px;
+  height: auto;
+}
+
+
 
 /* ==========================================================================
    Helper classes

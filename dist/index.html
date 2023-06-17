@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -18,44 +18,151 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+  <script src="js/app.js" ></script>
 </head>
 
 <body>
-  <div className="container">
+  <div class="container">
     <header>
       <nav id="nav">
-        <ul>
+        <a href="#home" class="active"></a>
+        <ul id="myLinks">
           <li><a href="#projects">Projects</a></li> 
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#contact">Contact</a></li>
           <li><a href="#social">Social</a></li>
-          </ul>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
       </nav>
       <h2>FRONTEND WEB DEVELOPER</h2>
       <h1>Robert Schuster</h1>
-      <img src="img/rob-avatar-coding.png" alt="avatar coding" />
+      <img class="avatar" src="img/rob-avatar-coding.png" alt="avatar coding" />
     </header>
 
     <div id="projects">
       <h3>Projects</h3>
       <div class="projects">
-        <div class="project-list">
+        <ul class="project-list">
           <div>
-            
+            <div>
+              <h3>Guess the Word Game</h3>
+            </div>
+            <img src="img/guess-word.png" alt="Guess-word game" />
+            <p>Description:  I utilized JavaScript to provide user interaction to guess letters to a word that is chosen randomly  from a local API.  The user is allowed a specified number of guesses. </p>
+            <div>
+              <p>Skills:</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>API Call</li>
+                <li>Concepts of match(), split(), trip(), join()</li>
+                <li>Single simple regular expresions to find text pattern matches</li>
+              </ul>
+            </div>
+            <div>
+              <p>Tools:</p>
+              <ul>
+                <li>VS Code</li>
+                <li>Chrome DevTools</li>
+                <li>GitHub version control</li>
+                <li>Git</li>
+              </ul>
+            </div>
+            <button>View Live Site</button><onclick src="https://rob17204.github.io/guess-the-word-game/"></onclick>  
           </div>
-          
-        </div>
+          <div>
+            <div>
+              <h3>GitHub Repo</h3>
+            </div>
+            <img src="img/github-repo.png" alt="GitHub repo" />
+            <p>Description: Using JavaScript I fetched the API from my GitHub account to display my Public Repos in the DOM.  I created global variables, event listeners, Click event that uses matches() method, and an async function to pull data of a specific repo, and a dynamic search of my Repos.</p>
+            <div>
+              <p>Skills:</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>Fetch API JSON data</li>
+                <li>Create Dynamic Search</li>
+                <li>Create Global Variables</li>
+              </ul>
+            </div>
+            <div>
+              <p>Tools:</p>
+              <ul>
+                <li>VS Code</li>
+                <li>Chrome DevTools</li>
+                <li>GitHub version control</li>
+                <li>Git</li>
+              </ul>
+            </div>
+            <button>View Live Site</button><onclick src="https://rob17204.github.io/github-repo-gallery/"></onclick>  
+          </div>
+          <div>
+            <div>
+              <h3>Sticky Notes</h3>
+            </div>
+            <img src="img/sticky-notes.png" alt="sticky notes" />
+            <p>Description: This project uses HTML, CSS, and JSX to accept user input, save state to local storage. The user has the ability to search, add and delete items as they desire.</p>
+            <div>
+              <p>Skills:</p>
+              <ul>
+                <li>JavaScript React</li>
+                <li>Greenfield project build</li>
+                <li>UI Component breakdown</li>
+                <li>JSX</li>
+                <li>ES6</li>
+                <li>Managing Data Flow</li>
+                <li>State and Props Values</li>
+              </ul>
+            </div>
+            <div>
+              <p>Tools:</p>
+              <ul>
+                <li>VS Code</li>
+                <li>Chrome DevTools</li>
+                <li>Codesandbox</li>
+              </ul>
+            </div>
+            <button>View Live Site</button><onclick src=""></onclick>  
+          </div>
+          <div>
+            <div>
+              <h3>Unplugged Retreat</h3>
+            </div>
+            <img src="img/unplugged-retreat.png" alt="unplugged retreat" />
+            <p>Description: From a design comp for a 3 page website, I hand-coded a fully responsive 3 page webpage to the specifications listed.  I used Gimp to view the design comp and its elements.  I coded the site using Atom and VS Code, and checked compatibility using Chrome DevTools.</p>
+            <div>
+              <p>Skills:</p>
+              <ul>
+                <li>HTML / CSS</li>
+                <li>Responsive Web Design</li>
+                <li>FlexBox Properties</li>
+                <li>Git and GitHub</li>
+                <li>Dissecting a Design Comp</li>
+              </ul>
+            </div>
+            <div>
+              <p>Tools:</p>
+              <ul>
+                <li>VS Code</li>
+                <li>Chrome DevTools</li>
+                <li>Git and GitHub version control</li>
+                <li>Gimp</li>
+              </ul>
+            </div>
+            <button>View Live Site</button><onclick src="https://rob17204.github.io/unplugged-retreat/"></onclick>  
+          </div>
+        </ul>
       </div>
       <a href="#nav">Top</a>
     </div>
 
     <div class="about" id="about">
       <h3>About Me</h3>
-      <img src="img/rob-avatar-hi.png" alt="avatar waving" />
+      <img class="avatar" src="img/rob-avatar-hi.png" alt="avatar waving" />
       <h4>Hi! I'm Rob</h4>
       <h4>I'm a Front End Web Developer</h4>
       <p>I have loved programming since writing basic programming in school.<br/> I began building web pages as a way to practice coding. I have been hooked on Front End Web Development ever since.<br/>I tend to lose track of time as a web page takes shape, and my excitement grows with every commit saved to GitHub.<br/> The continuous evolution of web protocols and syntax help keep the practice of Web Development enticing and challenging. Sometimes searching the web to find a solution for coding a particular feature is the most rewarding part. </p>
@@ -65,23 +172,45 @@
     </div>
 
     <div class="skills" id="skills">
-      <h3>Skills</h3>
-      <ul>
-        <li>HTML5 / CSS</li>
-        <li>Git and the command line</li>
-        <li>GitHub</li>
-        <li>Version Control</li>
-        <li>FlexBox</li>
-        <li>MediaQueries</li>
-        <li>Responsive Typography</li>
-        <li>W3 Standards</li>
-      </ul>
+      <div>
+        <h3>Skills</h3>
+        <ul>
+          <li>HTML5 / CSS</li>
+          <li>Git and the command line</li>
+          <li>GitHub</li>
+          <li>Version Control</li>
+          <li>FlexBox</li>
+          <li>MediaQueries</li>
+          <li>Responsive Typography</li>
+          <li>W3 Standards</li>
+          <li>API's</li>
+          <li>Manipulating the DOM</li>
+          <li>Vanilla JavaScript</li>
+          <li>JSX</li>
+          <li>Managing Data Flow</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Tools</h3>
+        <ul>
+          <li>Chrome DevTools</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>CodeSandbox</li>
+          <li>VS Code</li>
+          <li>Zoom</li>
+          <li>GoToMeeting</li>
+          <li>Slack</li>
+          <li>WordPress</li>
+          <li>NPM</li>
+        </ul>
+      </div>
       <a href="#nav">Top</a>
     </div>
 
     <div class="contact" id="contact">
       <h3>Contact Me:</h3>
-      <img src="img/rob-avatar-contact.png" alt="avatar" />
+      <img class="avatar" src="img/rob-avatar-contact.png" alt="avatar" />
       <address>
         <p>Email: robert.is@icloud.com</p>
         <p>Phone: 231-920-1568</p>
