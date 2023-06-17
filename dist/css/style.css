@@ -141,12 +141,43 @@ li {
 
 /* Image properties */
 .avatar {
-  height: 105px;
-  width: auto;
+  height: 75px;
+  width: 75px;
 }
 .projects img {
   width: 275px;
   height: auto;
+}
+
+/* Header */
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.header-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  border: black solid 1px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px gray;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  border: black solid 1px;
+  border-radius: 10px;
+  box-shadow: 10px 5px 5px gray;
 }
 
 
