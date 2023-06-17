@@ -85,6 +85,7 @@ textarea {
    ========================================================================== */
 body {
   text-align: center;
+  font-size: 14px;
 }
 .container {
   margin: 18px 10px;
@@ -94,7 +95,19 @@ body {
   align-items: center;
   width: 95%;
 }
-   /* Navigation Menu */
+
+/* Text Styles */
+h1, h2, h3, h4, h5, p, a, li {
+  font-family: 'Poppins', sans-serif;
+}
+p, li, a {
+  font-size: 1em;
+}
+h2 {
+  padding: 4px;
+}
+
+/* Navigation Menu */
 .topnav {
   overflow: hidden;
   position: relative;
@@ -169,7 +182,7 @@ li {
   box-shadow: 10px 5px 5px gray;
 }
 
-.project-container {
+.project-container, .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -180,6 +193,45 @@ li {
   box-shadow: 10px 5px 5px gray;
 }
 
+.projects {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-list {
+  display: flex;
+  flex-flow: column;
+}
+
+.project-item {
+  padding: 10px 8px 8px 8px;
+  margin: 0;
+  border-bottom: black solid 1px;
+  padding-bottom: 10px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.project-style {
+  border-bottom: black solid 1px;
+  padding-bottom: 10px;
+}
+
+.project-highlight {
+  border-radius: 10px;
+  padding: 5px 0;
+  background-color: antiquewhite;
+}
+
+.contact {
+  width: 85%;
+  height: auto;
+  padding-bottom: 10px;
+}
 
 
 /* ==========================================================================

@@ -22,6 +22,11 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+  
   <script src="js/app.js" ></script>
 </head>
 
@@ -54,12 +59,16 @@
       <h3>Projects</h3>
       <div class="projects">
         <ul class="project-list">
-          <div>
-            <div>
-              <h3>Guess the Word Game</h3>
+          <div class="project-item, project-style">
+            <div class="project-highlight">
+              <div>
+                <h4>Guess the Word Game</h4>
+              </div>
+              <div>
+                <img src="img/guess-word.png" alt="Guess-word game" />
+                <p>Description:  I utilized JavaScript to provide user interaction to guess letters to a word that is chosen randomly  from a local API.  The user is allowed a specified number of guesses. </p>
+              </div>
             </div>
-            <img src="img/guess-word.png" alt="Guess-word game" />
-            <p>Description:  I utilized JavaScript to provide user interaction to guess letters to a word that is chosen randomly  from a local API.  The user is allowed a specified number of guesses. </p>
             <div>
               <p>Skills:</p>
               <ul>
@@ -80,12 +89,16 @@
             </div>
             <button>View Live Site</button><onclick src="https://rob17204.github.io/guess-the-word-game/"></onclick>  
           </div>
-          <div>
-            <div>
-              <h3>GitHub Repo</h3>
+          <div class="project-item, project-style">
+            <div class="project-highlight">  
+              <div>
+                <h3>GitHub Repo</h3>
+              </div>
+              <div>
+                <img src="img/github-repo.png" alt="GitHub repo" />
+                <p>Description: Using JavaScript I fetched the API from my GitHub account to display my Public Repos in the DOM.  I created global variables, event listeners, Click event that uses matches() method, and an async function to pull data of a specific repo, and a dynamic search of my Repos.</p>
+              </div>
             </div>
-            <img src="img/github-repo.png" alt="GitHub repo" />
-            <p>Description: Using JavaScript I fetched the API from my GitHub account to display my Public Repos in the DOM.  I created global variables, event listeners, Click event that uses matches() method, and an async function to pull data of a specific repo, and a dynamic search of my Repos.</p>
             <div>
               <p>Skills:</p>
               <ul>
@@ -106,12 +119,16 @@
             </div>
             <button>View Live Site</button><onclick src="https://rob17204.github.io/github-repo-gallery/"></onclick>  
           </div>
-          <div>
-            <div>
-              <h3>Sticky Notes</h3>
+          <div class="project-item, project-style">
+            <div class="project-highlight">
+              <div>
+                <h3>Sticky Notes</h3>
+              </div>
+              <div>
+                <img src="img/sticky-notes.png" alt="sticky notes" />
+                <p>Description: This project uses HTML, CSS, and JSX to accept user input, save state to local storage. The user has the ability to search, add and delete items as they desire.</p>
+              </div>
             </div>
-            <img src="img/sticky-notes.png" alt="sticky notes" />
-            <p>Description: This project uses HTML, CSS, and JSX to accept user input, save state to local storage. The user has the ability to search, add and delete items as they desire.</p>
             <div>
               <p>Skills:</p>
               <ul>
@@ -134,13 +151,17 @@
             </div>
             <button>View Live Site</button><onclick src=""></onclick>  
           </div>
-          <div>
-            <div>
-              <h3>Unplugged Retreat</h3>
+          <div class="project-item, project-style">
+            <div class="project-highlight">
+              <div>
+                <h3>Unplugged Retreat</h3>
+              </div>
+              <div>
+                <img src="img/unplugged-retreat.png" alt="unplugged retreat" />
+               <p>Description: From a design comp for a 3 page website, I hand-coded a fully responsive 3 page webpage to the specifications listed.  I used Gimp to view the design comp and its elements.  I coded the site using Atom and VS Code, and checked compatibility using Chrome DevTools.</p>
+              </div>
             </div>
-            <img src="img/unplugged-retreat.png" alt="unplugged retreat" />
-            <p>Description: From a design comp for a 3 page website, I hand-coded a fully responsive 3 page webpage to the specifications listed.  I used Gimp to view the design comp and its elements.  I coded the site using Atom and VS Code, and checked compatibility using Chrome DevTools.</p>
-            <div>
+               <div>
               <p>Skills:</p>
               <ul>
                 <li>HTML / CSS</li>
@@ -172,9 +193,11 @@
       <h4>Hi! I'm Rob</h4>
       <h4>I'm a Front End Web Developer</h4>
       <p>I have loved programming since writing basic programming in school.<br/> I began building web pages as a way to practice coding. I have been hooked on Front End Web Development ever since.<br/>I tend to lose track of time as a web page takes shape, and my excitement grows with every commit saved to GitHub.<br/> The continuous evolution of web protocols and syntax help keep the practice of Web Development enticing and challenging. Sometimes searching the web to find a solution for coding a particular feature is the most rewarding part. </p>
-      <h5>Fun Fact!</h5>
-      <p>I enjoy planning travel trips to beautiful places with my Significant, recently we traveled to Banff, Alberta, Canada and it was phenomenal!<br/>If I am not traveling, I enjoy jogging, walking, and biking, along with a short Netflix binge too.</p>
-      <a href="#nav">Top</a>
+      <div class="project-container">  
+        <h5>Fun Fact!</h5>
+        <p>If I am not traveling, I enjoy jogging, walking, and biking, along with a short Netflix binge too.</p>
+      </div>
+        <a href="#nav">Top</a>
     </div>
 
     <div class="skills" id="skills">
@@ -231,6 +254,9 @@
       <a href="#nav">Top</a>
     </div>
   </div>
+  <footer>
+    <p>copyright 2023 Robert Schuster</p>
+  </footer>
 
   <script src="js/vendor/modernizr-3.12.0.min.js"></script>
   <script src="js/app.js"></script>
