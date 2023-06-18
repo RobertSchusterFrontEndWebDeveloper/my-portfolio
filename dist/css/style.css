@@ -83,6 +83,8 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
 body {
   text-align: center;
   font-size: 14px;
@@ -101,62 +103,9 @@ body {
 h1, h2, h3, h4, h5, p, a, li {
   font-family: 'Poppins', sans-serif;
 }
-p, li, a {
-  font-size: 1em;
-}
+
 h2 {
   padding: 4px;
-}
-
-/* Navigation Menu */
-.topnav {
-  overflow: hidden;
-  position: relative;
-}
-/* Hide links inside navigation menu */
-.topnav #myLinks {
-  display: none;
-}
-/* Style menu links */
-.topnav a {
-  color: #cac691;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-/* Style Hamburger menu */
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: red;
-}
-/* Mouse-over color */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-/* Style active link */
-.active {
-  background-color: #04AA6D;
-  color: salmon;
-}
-/* End Nav Menu */
-
-button {
-  color: #152a3e;
-  background-color: #cac691;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.icon, a .icon {
-  font-size: 48px;
-  color: #e9b14c;
-  font-weight: 900;
 }
 
 ul {
@@ -165,6 +114,22 @@ ul {
 }
 li {
   list-style: none;
+}
+
+button {
+  color: #152a3e;
+  background-color: #cac691;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+#nav a{
+  color: #e9b14c;
+  margin: 10px;
+}
+
+p, li, a {
+  font-size: 1em;
 }
 
 /* Image properties */
@@ -278,10 +243,7 @@ header {
   padding-bottom: 10px;
 }
 
-#nav a{
-  color: #e9b14c;
-  margin: 10px;
-}
+
 #fact {
   background-color: #152a3e;
   box-shadow: 10px 5px 5px black;
