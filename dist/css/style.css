@@ -114,6 +114,7 @@ ul {
 }
 li {
   list-style: none;
+  padding: 2px 8px;
 }
 
 button {
@@ -176,6 +177,7 @@ header {
   border: black solid 1px;
   border-radius: 10px;
   box-shadow: 10px 5px 5px gray;
+  width: 100%;
 }
 
 .projects {
@@ -210,12 +212,14 @@ header {
 
 .project-highlight {
   border-radius: 10px;
-  padding: 5px 0;
+  padding: 5px 0px;
   background-color: #cac691;
 }
 
 .project-highlight p {
   margin: 15px 3px;
+  padding: 3px 10px;
+  line-height: 1.8em;
 }
 
 .about {
