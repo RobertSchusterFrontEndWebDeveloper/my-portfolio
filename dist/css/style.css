@@ -99,6 +99,10 @@ body {
   width: 95%;
 }
 
+nav li {
+  display: inline-block;
+}
+
 /* Text Styles */
 h1, h2, h3, h4, h5, p, a, li {
   font-family: 'Poppins', sans-serif;
