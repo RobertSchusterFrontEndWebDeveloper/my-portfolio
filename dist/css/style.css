@@ -164,8 +164,9 @@ header {
 
 .header-items {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   border-radius: 10px;
   box-shadow: 10px 5px 5px gray;
   background-color: #e9b14c;
