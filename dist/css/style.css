@@ -201,12 +201,12 @@ header {
   flex-flow: column;
 }
 
-.project-style {
+/*.project-style {
   border-bottom: black solid 1px;
   padding-bottom: 10px;
   margin-bottom: 20px;
   padding-bottom: 20px;
-}
+} */
 
 .project-highlight {
   border-radius: 10px;
@@ -344,7 +344,23 @@ header {
 
 @media only screen and (min-width: 35em) {
   /* Style adjustments for viewports that meet the condition */
+  .project-list {
+    display: flex;
+    flex-flow: row;
+  }
+  .project-item {
+    padding: 10px 8px 8px 8px;
+    margin: 0;
+    border-bottom: black solid 1px;
+    padding-bottom: 10px;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+  }
 }
+
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
