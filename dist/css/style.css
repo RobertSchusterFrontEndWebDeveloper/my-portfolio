@@ -366,8 +366,7 @@ header {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 560px ){
   .project-list {
     display: flex;
     flex-flow: row;
@@ -377,10 +376,15 @@ header {
     margin: 0;
     border-bottom: black solid 1px;
     padding-bottom: 10px;
-    width: 48%;
+    width: 98%;
     display: flex;
     justify-content: center;
-    flex-flow: row;
+    flex-flow: column;
+  }
+ 
+  .project-highlight {
+    margin: 0px 4px;
+    max-width: 48%;
   }
 }
 
