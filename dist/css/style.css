@@ -207,9 +207,10 @@ header {
   display: flex;
   justify-content: center;
   flex-flow: column;
+  margin: 20px 0px;
 }
 
-/*.project-style {
+/* .project-style {
   border-bottom: black solid 1px;
   padding-bottom: 10px;
   margin-bottom: 20px;
@@ -282,6 +283,18 @@ header {
 #tools, #tools h3, #tools ul {
   color: #152a3e;
 }
+
+.review {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0px;
+}
+.review p {
+  line-height: 1.8em;
+}
+
+
 
 /* ==========================================================================
    Helper classes
