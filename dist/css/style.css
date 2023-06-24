@@ -412,6 +412,26 @@ header {
     justify-content: space-around;
     align-items: flex-start;
   }
+
+  .social ul{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .review-section {
+    padding: 30px;
+  }
+  .review-quote {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .review {
+    width: 30%;
+    margin: 0px 10px;
+  }
 }
 
 
