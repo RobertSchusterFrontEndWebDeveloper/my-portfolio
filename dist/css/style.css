@@ -243,21 +243,16 @@ header {
 
 .about {
   color: #152a3e;
-  background-image: linear-gradient( #f7e8e8, #152a3e);
+  background-image: linear-gradient( #f7e8e8, #CAC691);
 }
 .about p {
   color: black;
+  line-height: 1.8em;
 }
 
 .skills {
-  background-image: linear-gradient( #152a3e, #eeefda );
+  background-image: linear-gradient( #CAC691, #eeefda );
   width: 100%;
-}
-.skills h3 {
-  color: #e9b14c;
-}
-.skills ul {
-  color: #e9b14c;
 }
 
 .contact {
@@ -383,21 +378,39 @@ header {
   .project-list {
     display: flex;
     flex-flow: row;
+    align-items: flex-start;
   }
-  .project-item {
+  .project-item, .project-item-btm {
     padding: 10px 8px 8px 8px;
     margin: 0;
-    border-bottom: black solid 1px;
     padding-bottom: 10px;
     width: 98%;
     display: flex;
     justify-content: center;
     flex-flow: column;
   }
- 
+
+  .project-item {
+    border-bottom: black solid 1px;
+  }
   .project-highlight {
     margin: 0px 4px;
-    max-width: 48%;
+  }
+
+  .about {
+    padding: 0px 30px 30px 30px;
+  }
+
+  .fact {
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px gray;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
   }
 }
 
