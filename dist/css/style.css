@@ -123,14 +123,20 @@ li {
 
 button {
   color: #152a3e;
-  background-color: #cac691;
+  background-color: #e9b14c;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 10px;
 }
-#nav a{
-  color: #e9b14c;
+button:hover {
+  background-color: #F8D697;
+}
+a{
+  color: #152a3e;
   margin: 10px;
+}
+a:hover {
+  color: #E9B14C;
 }
 
 p, li, a {
@@ -433,6 +439,31 @@ header {
     margin: 0px 10px;
   }
 }
+
+@media only screen and (min-width: 1200px ){
+  html{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  body {
+    width: 1240px;
+  }
+  .header-items {
+    margin: 20px;
+    padding: 0px 65px;
+  }
+  .header-text {
+    padding: 20px 50px;
+    font-size: 1.25em;
+  }
+  .avatar {
+    height: 150px;
+    width: auto;
+  }
+}
+
 
 
 
