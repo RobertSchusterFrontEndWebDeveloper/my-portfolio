@@ -167,7 +167,6 @@ header {
   margin: 0;
   padding: 10px 0;
 }
-
 .header-items {
   display: flex;
   flex-direction: row;
@@ -179,6 +178,7 @@ header {
   padding: 0 15px;
 }
 
+/* Projects */
 .project-container, .contact {
   display: flex;
   flex-direction: column;
@@ -191,19 +191,16 @@ header {
   padding-top: 20px;
   width: 100%;
 }
-
 .projects {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
 }
-
 .project-list {
   display: flex;
   flex-flow: column;
 }
-
 .project-item {
   padding: 10px 8px 8px 8px;
   margin: 0;
@@ -215,20 +212,17 @@ header {
   flex-flow: column;
   margin: 20px 0px;
 }
-
 .project-highlight {
   border-radius: 10px;
   padding: 5px 0px;
   background-color: #cac691;
   margin-top: 40px;
 }
-
 .project-highlight p {
   margin: 15px 3px;
   padding: 3px 10px;
   line-height: 1.8em;
 }
-
 .project-line {
   display: flex;
   justify-content: center;
@@ -239,13 +233,24 @@ header {
   padding-bottom: 20px;
 }
 
+/* About */
 .about {
   color: #152a3e;
   background-image: linear-gradient( #f7e8e8, #CAC691);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .about p {
   color: black;
   line-height: 1.8em;
+}
+.text-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills {
@@ -257,6 +262,7 @@ header {
   width: 85%;
   height: auto;
   padding-bottom: 10px;
+  background-color: #fff;
 }
 
 .fact {
@@ -277,6 +283,13 @@ header {
   color: #152a3e;
 }
 
+.review-section {
+  color: #152a3e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .review {
   background-color: white;
   border-radius: 10px;
