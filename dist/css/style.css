@@ -157,7 +157,9 @@ p, li, a {
 header {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 .header-text {
   display: flex;
@@ -176,6 +178,7 @@ header {
   box-shadow: 10px 5px 5px gray;
   background-color: #e9b14c;
   padding: 0 15px;
+  width: 89%;
 }
 
 /* Projects */
@@ -209,8 +212,19 @@ header {
   width: 95%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: column;
   margin: 20px 0px;
+}
+.project-item-btm {
+  padding: 10px 8px 8px 8px;
+  margin: 0;
+  padding-bottom: 10px;
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
 }
 .project-highlight {
   border-radius: 10px;
@@ -385,7 +399,7 @@ header {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 560px ){
+@media only screen and (min-width: 768px ){
   .project-list {
     display: flex;
     flex-flow: row;
@@ -473,8 +487,9 @@ header {
     align-items: center;
   }
   body {
-    width: 1240px;
+    max-width: 1240px;
   }
+
   .header-items {
     margin: 20px;
     padding: 0px 65px;
