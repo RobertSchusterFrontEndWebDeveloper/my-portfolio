@@ -216,13 +216,6 @@ header {
   margin: 20px 0px;
 }
 
-/* .project-style {
-  border-bottom: black solid 1px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-} */
-
 .project-highlight {
   border-radius: 10px;
   padding: 5px 0px;
@@ -239,9 +232,8 @@ header {
 .project-line {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   width: 65%;
-  margin-left: 17%;
   border-bottom: 4px dotted #152a3e;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -393,14 +385,33 @@ header {
     width: 98%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-flow: column;
   }
+ 
+  .project-item {
+    padding: 10px 8px 8px 8px;
+    margin: 0;
+    border-bottom: black solid 1px;
+    padding-bottom: 10px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    margin: 20px 0px;
+  }
+
 
   .project-item {
     border-bottom: black solid 1px;
+    height: 800px;
+    align-items: center;
+    justify-content: flex-start;
   }
   .project-highlight {
     margin: 0px 4px;
+    height: 440px;
+    align-items: center;
   }
 
   .about {
@@ -415,8 +426,9 @@ header {
   .skills {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
+    padding-bottom: 30px;
   }
 
   .social ul{
