@@ -99,6 +99,23 @@ body {
   width: 95%;
 }
 
+/* Navigation burger menu setup */
+#hamNav label {
+  display: inline-block;
+  font-size: 60px;
+}
+#hamItems {
+  flex-wrap: wrap;
+}
+#hamItems {
+  display: none;
+}
+#hamNav input:checked ~ #hamItems {
+  display: flex
+}
+#hamburger {
+  display: none;
+}
 nav li {
   display: inline-block;
 }
@@ -501,6 +518,20 @@ header {
   .avatar {
     height: 150px;
     width: auto;
+  }
+
+  /* navigation */
+  #hamItems {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  #hamItems a {
+    width: 100%;
+    padding: 0px 45px;
+  }
+  #hamNav label, #hamburger {
+    display: none;
   }
 }
 
