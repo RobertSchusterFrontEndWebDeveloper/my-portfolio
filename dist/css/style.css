@@ -103,6 +103,7 @@ body {
 #hamNav label {
   display: inline-block;
   font-size: 60px;
+  color: #152a3e
 }
 #hamItems {
   flex-wrap: wrap;
@@ -123,6 +124,7 @@ nav li {
 /* Text Styles */
 h1, h2, h3, h4, h5, p, a, li {
   font-family: 'Poppins', sans-serif;
+  color: #152A3E;
 }
 
 h2 {
@@ -432,7 +434,6 @@ header {
     align-items: center;
     flex-flow: column;
   }
- 
   .project-item {
     padding: 10px 8px 8px 8px;
     margin: 0;
@@ -444,8 +445,6 @@ header {
     flex-flow: column;
     margin: 20px 0px;
   }
-
-
   .project-item {
     border-bottom: black solid 1px;
     height: 800px;
@@ -494,6 +493,8 @@ header {
     width: 30%;
     margin: 0px 10px;
   }
+
+  
 }
 
 @media only screen and (min-width: 1200px ){
@@ -532,6 +533,10 @@ header {
   }
   #hamNav label, #hamburger {
     display: none;
+  }
+
+  h3 {
+    font-size: 1.25em;
   }
 }
 
