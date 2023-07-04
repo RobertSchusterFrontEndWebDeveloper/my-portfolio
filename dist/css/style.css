@@ -333,6 +333,14 @@ header {
   line-height: 1.8em;
 }
 
+.review span {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
 
 
 /* ==========================================================================
