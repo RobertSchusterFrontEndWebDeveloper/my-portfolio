@@ -131,6 +131,10 @@ h2 {
   padding: 4px;
 }
 
+h3 {
+  font-size: 1.80em;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -140,19 +144,21 @@ li {
   padding: 2px 8px;
 }
 
-button {
+.my-btn {
   color: #152a3e;
   background-color: #e9b14c;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 15px;
+  border-radius: 25px;
   margin: 10px;
+  border: 1px solid #152a3e;
 }
-button:hover {
+.my-btn:hover {
   background-color: #F8D697;
 }
 a{
   color: #152a3e;
   margin: 10px;
+  text-decoration: none;
 }
 a:hover {
   color: #E9B14C;
@@ -190,14 +196,14 @@ header {
 }
 .header-items {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   box-shadow: 10px 5px 5px gray;
   background-color: #e9b14c;
   padding: 0 15px;
-  width: 89%;
+  width: 92%;
 }
 
 /* Projects */
@@ -224,16 +230,14 @@ header {
   flex-flow: column;
 }
 .project-item {
-  padding: 10px 8px 8px 8px;
-  margin: 0;
+  padding: 0px 8px 10px 8px;
   border-bottom: black solid 1px;
-  padding-bottom: 10px;
   width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: column;
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 .project-item-btm {
   padding: 10px 8px 8px 8px;
@@ -250,11 +254,13 @@ header {
   padding: 5px 0px;
   background-color: #cac691;
   margin-top: 40px;
+  height: 550px;
 }
 .project-highlight p {
   margin: 15px 3px;
   padding: 3px 10px;
   line-height: 1.8em;
+  height: 220px;
 }
 .project-line {
   display: flex;
@@ -299,17 +305,19 @@ header {
 }
 
 .fact {
-  padding: 8px;
   background-color: #E9B14C;
-  /*box-shadow: 10px 5px 5px black;*/
-  width: 96%;
   color: #152A3E;
+  padding: 0px 6px;
 }
 #fact h5 {
   color: #cac691;
 }
 #fact p {
   color: #eeefda;
+}
+
+.tools {
+  color: #152a3e;
 }
 
 #tools, #tools h3, #tools ul {
@@ -427,15 +435,19 @@ header {
    ========================================================================== */
 
 @media only screen and (min-width: 768px ){
+  .header-items {
+    flex-direction: row;
+    margin: 20px;
+    padding: 0px 38px;
+  }
   .project-list {
     display: flex;
     flex-flow: row;
     align-items: flex-start;
   }
   .project-item, .project-item-btm {
-    padding: 10px 8px 8px 8px;
+    padding: 10px 8px 40px 8px;
     margin: 0;
-    padding-bottom: 10px;
     width: 98%;
     display: flex;
     justify-content: center;
@@ -458,11 +470,12 @@ header {
     height: 800px;
     align-items: center;
     justify-content: flex-start;
+    padding-bottom: 80px;
   }
   .project-highlight {
     margin: 0px 4px;
-    height: 440px;
-    align-items: center;
+    height: 500px;
+    padding-bottom: 40px;
   }
 
   .about {
@@ -472,6 +485,8 @@ header {
   .fact {
     border-radius: 10px;
     box-shadow: 10px 5px 5px gray;
+    padding: 8px;
+    width: 96%;
   }
 
   .skills {
@@ -519,6 +534,7 @@ header {
   .header-items {
     margin: 20px;
     padding: 0px 65px;
+    width: 89%
   }
   .header-text {
     padding: 20px 10px;
@@ -545,7 +561,13 @@ header {
   }
 
   h3 {
-    font-size: 1.25em;
+    font-size: 2.0em;
+  }
+  h4 {
+    font-size: 1.5em;
+  }
+  .project-highlight p {
+    height: 145px;
   }
 }
 
