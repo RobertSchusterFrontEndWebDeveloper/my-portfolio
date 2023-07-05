@@ -154,7 +154,12 @@ li {
 }
 .my-btn:hover {
   background-color: #F8D697;
+  color #152A3E;
 }
+.my-btn p {
+  color: #152a3e;
+}
+
 a{
   color: #152a3e;
   margin: 10px;
@@ -202,8 +207,7 @@ header {
   border-radius: 10px;
   box-shadow: 10px 5px 5px gray;
   background-color: #e9b14c;
-  padding: 0 15px;
-  width: 92%;
+  width: 100%;
 }
 
 /* Projects */
@@ -349,6 +353,14 @@ header {
   padding-left: 10px;
 }
 
+footer {
+  background-color: #152a3e;
+  height: 60px;
+  padding-top: 10px;
+}
+footer p {
+  color: #eeefda;
+}
 
 
 /* ==========================================================================
@@ -438,7 +450,6 @@ header {
   .header-items {
     flex-direction: row;
     margin: 20px;
-    padding: 0px 38px;
   }
   .project-list {
     display: flex;
@@ -446,36 +457,24 @@ header {
     align-items: flex-start;
   }
   .project-item, .project-item-btm {
-    padding: 10px 8px 40px 8px;
-    margin: 0;
-    width: 98%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column;
-  }
-  .project-item {
-    padding: 10px 8px 8px 8px;
-    margin: 0;
-    border-bottom: black solid 1px;
-    padding-bottom: 10px;
-    width: 95%;
-    display: flex;
-    justify-content: center;
-    flex-flow: column;
+    padding: 10px 8px 80px 8px;
     margin: 20px 0px;
-  }
-  .project-item {
-    border-bottom: black solid 1px;
+    width: 98%;
     height: 800px;
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-start;
-    padding-bottom: 80px;
+    flex-flow: column;
   }
+  
   .project-highlight {
     margin: 0px 4px;
     height: 500px;
     padding-bottom: 40px;
+  }
+
+  .project-highlight p {
+    margin: 15px 30px;
   }
 
   .about {
