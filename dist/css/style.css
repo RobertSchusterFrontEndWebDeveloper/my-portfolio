@@ -177,6 +177,14 @@ p, li, a {
   font-size: 1em;
 }
 
+:link {
+  color: #152A3E;
+}
+
+::selection {
+  color: #152A3E;
+}
+
 /* Image properties */
 .avatar {
   height: 75px;
@@ -605,7 +613,9 @@ footer p {
   }
 
   .project-highlight p {
+    font-size: 1.1em;
     height: 145px;
+    line-height: 1.6em;
   }
 }
 
