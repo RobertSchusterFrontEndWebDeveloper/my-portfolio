@@ -103,7 +103,7 @@ body {
 #hamNav label {
   display: inline-block;
   font-size: 60px;
-  color: #152a3e;
+  color: #152a3e !important;
 }
 #hamItems {
   flex-wrap: wrap;
@@ -113,6 +113,10 @@ body {
 }
 #hamNav input:checked ~ #hamItems {
   display: flex;
+}
+#hamItems a:hover {
+  color: #E9B14C !important;
+  text-decoration: none !important;
 }
 #hamburger {
   display: none;
@@ -146,31 +150,24 @@ li {
 }
 
 .my-btn {
-  color: #152a3e;
   background-color: #e9b14c;
+  color: #152a3e !important;
   padding: 15px;
   border-radius: 25px;
   margin: 10px;
   border: 1px solid #152a3e;
+  text-decoration: none !important;
 }
 
 .my-btn:hover {
   background-color: #F8D697;
-  color: #152A3E;
+  color: #152A3E !important;
+  text-decoration: none !important;
 }
 
-.my-btn p {
-  color: #152a3e;
-}
-
-a{
-  color: #152a3e;
-  margin: 10px;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #E9B14C;
+a:visited {
+  color: #152a3e !important;
+  text-decoration: none !important;
 }
 
 p, li, a {
@@ -350,6 +347,11 @@ header {
 
 #tools, #tools h3, #tools ul {
   color: #152a3e;
+}
+
+.social {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .review-section {
@@ -591,7 +593,7 @@ footer p {
   #hamItems a {
     width: 100%;
     padding: 0px 45px;
-    color: #152A3E;
+    color: #152A3E !important;
   }
 
   #hamNav label, #hamburger {
