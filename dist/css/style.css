@@ -25,12 +25,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  background: #152a3e;
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #E9B14C;
   text-shadow: none;
 }
 
@@ -103,7 +103,7 @@ body {
 #hamNav label {
   display: inline-block;
   font-size: 60px;
-  color: #152a3e
+  color: #152a3e;
 }
 #hamItems {
   flex-wrap: wrap;
@@ -118,7 +118,7 @@ body {
   display: none;
 }
 nav li {
-  display: inline-block;
+  display: row nowrap;
 }
 
 /* Text Styles */
@@ -175,14 +175,6 @@ a:hover {
 
 p, li, a {
   font-size: 1em;
-}
-
-:link {
-  color: #152A3E;
-}
-
-::selection {
-  color: #152A3E;
 }
 
 /* Image properties */
@@ -392,6 +384,7 @@ footer {
   height: 60px;
   padding-top: 10px;
 }
+
 footer p {
   color: #eeefda;
 }
@@ -598,6 +591,7 @@ footer p {
   #hamItems a {
     width: 100%;
     padding: 0px 45px;
+    color: #152A3E;
   }
 
   #hamNav label, #hamburger {
