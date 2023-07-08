@@ -170,6 +170,10 @@ a:visited {
   text-decoration: none !important;
 }
 
+a {
+  padding: 0px 10px;
+}
+
 p, li, a {
   font-size: 1em;
 }
@@ -350,6 +354,7 @@ header {
 }
 
 .social {
+  display: flex;
   padding-top: 20px;
   padding-bottom: 40px;
 }
