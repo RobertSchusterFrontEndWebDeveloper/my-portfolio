@@ -113,16 +113,14 @@ body {
 }
 #hamNav input:checked ~ #hamItems {
   display: flex;
+  justify-content: center;
 }
 #hamItems a:hover {
-  color: #E9B14C !important;
-  text-decoration: none !important;
+  color: #E9B14C;
+  text-decoration: none;
 }
 #hamburger {
   display: none;
-}
-nav li {
-  display: row nowrap;
 }
 
 /* Text Styles */
@@ -151,23 +149,23 @@ li {
 
 .my-btn {
   background-color: #e9b14c;
-  color: #152a3e !important;
+  color: #152a3e;
   padding: 15px;
   border-radius: 25px;
   margin: 10px;
   border: 1px solid #152a3e;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
-.my-btn:hover {
+.my-btn:hover, a:hover {
   background-color: #F8D697;
-  color: #152A3E !important;
-  text-decoration: none !important;
+  color: #152A3E;
+  text-decoration: none;
 }
 
 a:visited {
-  color: #152a3e !important;
-  text-decoration: none !important;
+  color: #152a3e;
+  text-decoration: none;
 }
 
 a {
@@ -357,6 +355,9 @@ header {
   display: flex;
   padding-top: 20px;
   padding-bottom: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .review-section {
@@ -598,7 +599,7 @@ footer p {
   #hamItems a {
     width: 100%;
     padding: 0px 45px;
-    color: #152A3E !important;
+    color: #152A3E;
   }
 
   #hamNav label, #hamburger {
@@ -640,11 +641,11 @@ footer p {
   *,
   *::before,
   *::after {
-    background: #fff !important;
-    color: #000 !important;
+    background: #fff;
+    color: #000;
     /* Black prints faster */
-    box-shadow: none !important;
-    text-shadow: none !important;
+    box-shadow: none;
+    text-shadow: none;
   }
 
   a,
