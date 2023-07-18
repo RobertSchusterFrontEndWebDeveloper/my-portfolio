@@ -282,6 +282,12 @@ header {
   height: 220px;
 }
 
+.project-description {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
 .project-line {
   display: flex;
   justify-content: center;
@@ -318,6 +324,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: left;
+}
+
+.text-container h4 {
+  display: flex;
+  justify-content: center;
 }
 
 .skills {
@@ -348,9 +360,12 @@ header {
 
 .tools {
   color: #152a3e;
+  text-align: left;
 }
 
-#tools, #tools h3, #tools ul {
+.tools h3, .tools h4 {
+  display: flex;
+  justify-content: center;
   color: #152a3e;
 }
 
@@ -379,6 +394,7 @@ header {
 }
 
 .review p {
+  text-align: left;
   line-height: 1.8em;
 }
 
