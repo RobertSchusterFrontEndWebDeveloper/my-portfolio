@@ -317,7 +317,6 @@ header {
 .about p {
   color: black;
   line-height: 1.8em;
-  padding: 0px 40px;
   text-align: justify;
 }
 
@@ -497,6 +496,30 @@ footer p {
    Modify as content requires.
    ========================================================================== */
 
+@media only screen and (max-width: 280px) {
+  #hamNav input:checked ~ #hamItems{
+    flex-flow: column;
+    padding-bottom: 10px;
+  }
+
+  #hamNav input:checked ~ #hamItems a {
+    padding-bottom: 30px;
+  }
+
+  .project-container {
+    border: none;
+    box-shadow: none;
+  }
+
+  .project-item {
+    border-bottom: none;
+  }
+
+  .about p {
+    text-align: left;
+  }
+}
+
 @media only screen and (min-width: 768px ){
   .header-items {
     flex-direction: row;
@@ -543,8 +566,8 @@ footer p {
   .fact {
     border-radius: 10px;
     box-shadow: 10px 5px 5px gray;
-    padding: 8px;
-    width: 96%;
+    padding: 5px 30px;
+    margin: 5px;
   }
 
   .skills {
