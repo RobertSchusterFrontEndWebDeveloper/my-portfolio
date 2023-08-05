@@ -127,7 +127,7 @@ body {
 }
 
 /* Text Styles */
-h1, h2, h3, h4, h5, p, a, li {
+h1, h2, h3, h4, h5, h6, p, a, li {
   font-family: 'Poppins', sans-serif;
   color: #152A3E;
 }
@@ -136,7 +136,7 @@ h2 {
   padding: 4px;
 }
 
-h3 {
+h3, h6 {
   font-size: 1.80em;
 }
 
@@ -311,20 +311,18 @@ header {
 .about-header {
   display: flex;
   flex-flow: column;
+  align-items: center;
 }
 
 .about p {
   color: black;
   line-height: 1.8em;
   padding: 0px 40px;
+  text-align: justify;
 }
 
 .text-container {
   width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: left;
 }
 
 .text-container h4 {
@@ -539,7 +537,7 @@ footer p {
   .about-header {
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-end;
+    align-items: center;
   }
 
   .fact {
