@@ -167,6 +167,7 @@ li {
   margin: 10px;
   border: 1px solid #152a3e;
   text-decoration: none;
+  min-width: 50px;
 }
 
 .my-btn:hover, a:hover {
@@ -551,7 +552,7 @@ footer p {
     align-items: center;
     flex-flow: column;
   }
-  
+
   .project-highlight {
     margin: 0px 4px;
     height: 900px;
@@ -746,4 +747,3 @@ footer p {
     page-break-after: avoid;
   }
 }
-
